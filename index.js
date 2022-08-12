@@ -62,10 +62,7 @@ function respond(req, res, next) {
     return Promise.all(promise).then((resp) => {
       if (!_.isEmpty(resp)) {
         const billingdata = resp[0];
-        console.log(billingdata);
-        billingdata.cust5 = 1212;
         const customerdata = resp[1];
-        // billingdata.custid4 = 456;
         _.each(customerdata, (value, key) => {
             if (value === params.plantype) {
                 _.each(billingdata, (v, k) => {
