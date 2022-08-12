@@ -1,0 +1,18 @@
+{
+  "name": "billingissue",
+  "version": "1.0.0",
+  "description": "to find billing issue",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "suraj doiphode",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^13.1.2",
+    "nodemon": "^2.0.18",
+    "restify": "^8.6.1",
+    "restify-clients": "^4.1.1",
+    "lodash": "4.17.5"
+  }
+}
